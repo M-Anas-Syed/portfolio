@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.666c128f.chunk.css",
-    "main.js": "/portfolio/static/js/main.0c867c1b.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.0c867c1b.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.13232906.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.13232906.js.map",
-    "static/js/2.a9a76b9c.chunk.js": "/portfolio/static/js/2.a9a76b9c.chunk.js",
-    "static/js/2.a9a76b9c.chunk.js.map": "/portfolio/static/js/2.a9a76b9c.chunk.js.map",
-    "static/js/3.85f1cafa.chunk.js": "/portfolio/static/js/3.85f1cafa.chunk.js",
-    "static/js/3.85f1cafa.chunk.js.map": "/portfolio/static/js/3.85f1cafa.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.ddacb832.chunk.css",
+    "main.js": "/portfolio/static/js/main.5b639e61.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5b639e61.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0add7730.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0add7730.js.map",
+    "static/js/2.d87a0a6f.chunk.js": "/portfolio/static/js/2.d87a0a6f.chunk.js",
+    "static/js/2.d87a0a6f.chunk.js.map": "/portfolio/static/js/2.d87a0a6f.chunk.js.map",
+    "static/js/3.eb58a600.chunk.js": "/portfolio/static/js/3.eb58a600.chunk.js",
+    "static/js/3.eb58a600.chunk.js.map": "/portfolio/static/js/3.eb58a600.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.666c128f.chunk.css.map": "/portfolio/static/css/main.666c128f.chunk.css.map",
-    "static/js/2.a9a76b9c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a9a76b9c.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/portfolio/static/media/logo.6ce24c58.svg"
+    "static/css/main.ddacb832.chunk.css.map": "/portfolio/static/css/main.ddacb832.chunk.css.map",
+    "static/js/2.d87a0a6f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d87a0a6f.chunk.js.LICENSE.txt",
+    "static/media/countdown.3242910e.png": "/portfolio/static/media/countdown.3242910e.png",
+    "static/media/easybank.ca92f2ff.png": "/portfolio/static/media/easybank.ca92f2ff.png",
+    "static/media/rango.ab143d32.png": "/portfolio/static/media/rango.ab143d32.png",
+    "static/media/todo-react.270568c6.png": "/portfolio/static/media/todo-react.270568c6.png",
+    "static/media/todo.7adf6032.png": "/portfolio/static/media/todo.7adf6032.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.13232906.js",
-    "static/js/2.a9a76b9c.chunk.js",
-    "static/css/main.666c128f.chunk.css",
-    "static/js/main.0c867c1b.chunk.js"
+    "static/js/runtime-main.0add7730.js",
+    "static/js/2.d87a0a6f.chunk.js",
+    "static/css/main.ddacb832.chunk.css",
+    "static/js/main.5b639e61.chunk.js"
   ]
 }
