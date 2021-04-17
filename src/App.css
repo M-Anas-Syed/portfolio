@@ -1,43 +1,385 @@
-.App {
-  text-align: center;
-}
-
 body{
+  font-size: 16px;
+  font-family: 'Public Sans', sans-serif;
+}
+
+header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   background-color: black;
-  color: white;
+  z-index: 5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 500px){
+  .desktop{
+    display: none;
   }
+
+  .mobile{
+    display: block;
+  }
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (min-width: 500px){
+  .desktop{
+    display: block;
+  }
+
+  .mobile{
+    display: none;
+  }
+  
+}
+
+
+/* NAV CLASSES */
+
+.nav_container{
+  margin: 0 auto;
+  max-width: 890px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav_element{
+  padding: 10px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  transition: color 400ms ease-in-out;
+  transition: background-color 300ms ease-in-out;
+  border: 0;
+  border-radius: 5px;  
+}
+
+a:not(:last-child){
+  margin-right: 50px;
+}
+
+a.nav_element:hover{
+  background-color: white;
+  color: black;
+}
+
+.flex{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.selected{
+  background-color: white;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ul{
+  padding: 0;
+}
+
+@media (max-width: 500px){
+  header{
+    min-height: 51px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav_container{
+    margin: 0 auto;
+    max-width: 420px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    min-height: 51px;
+  }  
+
+  .nav_element{
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: color 400ms ease-in-out;
+    transition: background-color 300ms ease-in-out;
+    border: 0;
+    border-radius: 5px;  
+    font-size: 23px;
+  }
+
+  a:not(:last-child){
+    margin-right: 0px;
+  }
+
+  ul{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+  }
+
+  .selected{
+    background-color: white;
+    color: black;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .show{
+    display: block;
+  }
+}
+
+/* ABOUT CLASSES */
+
+.about_container{
+  display: block;
+  margin: 0 auto;
+  max-width: 890px;
+  padding-top: 305px;
+  padding-bottom: 200px;
+  margin-top: -200px;
+}
+
+h1{
+  font-size: 70px;
+  margin-bottom: 30px;
+}
+
+.about_p{
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+@media (max-width: 500px){
+  .about_container{
+    display: block;
+    margin: 0 auto;
+    max-width: 420px;
+    padding-top: 255px;
+    padding-bottom: 100px;
+    margin-top: -200px;
+    background-color: ghostwhite;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  
+  h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .about_p{
+    font-size: 17px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 0px;
+    padding: 20px;
+    padding-top: 30px;
+  }
+
+  .about_card{
+    border: 0;
+    background: rgba(240, 239, 239, 0.73);
+    border-radius: 15px;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+} 
+
+/* PROJECT CLASSES */
+
+.cards{
+  min-height: 450px;
+  border: 0;
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
+}
+
+.projects_p{
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  max-width: 400px;
+}
+
+.projects_container{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.adjusted_padding{
+  padding-top: 150px;
+  margin-top: -150px;
+}
+
+.p_padding_right{
+  margin-right: 50px;
+}
+
+.p_padding_left{
+  margin-left: 50px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 665px);
+  grid-column-gap: 70px;
+  grid-row-gap: 300px; 
+}
+
+.project_flex{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+
+.project_div{
+  display: inline-flex;
+  margin-bottom: 200px;
+}
+
+h2{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 200px;
+  text-decoration: underline;
+}
+
+h3{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0;
+  text-decoration: underline;
+}
+
+img{
+  width: 800px;
+  border-radius: 5px;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
+  transition: all 150ms ease-in-out;
+}
+
+img:hover{
+  transform: scale(1.08);
+}
+
+.bgcolour{
+  background-color: rgba(240, 239, 239, 0.548);
+  padding-top: 30px;
+}
+
+.description{
+  border: 0;
+  padding: 30px;
+}
+
+@media (max-width: 500px){
+  .cards{
+    min-height: 0;
+    border: 0;
+    background: ghostwhite;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  
+  .projects_p{
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+    max-width: 400px;
+  }
+  
+  .projects_container{
+    margin: 0 auto;
+    max-width: 420px;
+  }
+  
+  .adjusted_padding{
+    padding-top: 150px;
+    margin-top: -150px;
+    order: 2;
+  }
+  
+  .p_padding_right{
+    margin-right: 0px;
+    padding-right: 28px;
+    padding-left: 35px;
+  }
+  
+  .p_padding_left{
+    margin-left: 0px;
+    padding-right: 28px;
+    padding-left: 35px;
+  }
+  
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 665px);
+    grid-column-gap: 70px;
+    grid-row-gap: 300px; 
+  }
+  
+  .project_flex{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+  }
+  
+  .project_div{
+    display: flex;
+    margin-bottom: 200px;
+    flex-direction: column;
+  }
+  
+  h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+    text-decoration: underline;
+  }
+  
+  h3{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0;
+    text-decoration: underline;
+  }
+  
+  img{
+    position: relative;
+    left: 35px;
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
+    transition: all 150ms ease-in-out;
+  }
+  
+  img:hover{
+    transform: scale(1.08);
+  }
+  
+  .bgcolour{
+    background-color: white;
+    padding-top: 30px;
+  }
+  
+  .description{
+    border: 0;
+    padding: 30px;
   }
 }

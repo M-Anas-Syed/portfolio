@@ -1,11 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Nav from './components/nav';
+import About from './components/about';
+import Projects from './components/projects';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <h3>Author: Anas</h3>
+      <header>
+        <Nav></Nav>
+      </header>
+      <About></About>
+      <Projects></Projects>
     </div>
   );
 }
