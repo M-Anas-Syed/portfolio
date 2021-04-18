@@ -289,12 +289,13 @@ img:hover{
   .cards{
     min-height: 0;
     border: 0;
-    background: ghostwhite;
+    background: #D7C49E;
     border-radius: 15px;
     padding: 30px;
     box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.15);
     margin-top: 10px;
     padding-top: 10px;
+    color: white;
   }
   
   .projects_p{
@@ -374,12 +375,18 @@ img:hover{
   }
   
   .bgcolour{
-    background-color: white;
+    background: snow;
     padding-top: 30px;
   }
   
   .description{
     border: 0;
     padding: 30px;
+  }
+}
+
+@media (max-width: 375px){
+  img{
+    width: 310px;
   }
 }
