@@ -390,3 +390,9 @@ img:hover{
     width: 310px;
   }
 }
+
+@media (max-width: 390px) and (min-width: 376px){
+  img{
+    width: 325px;
+  }
+}
