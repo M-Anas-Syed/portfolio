@@ -2,8 +2,8 @@ import React from 'react';
 import easybank from './images/easybank.png';
 import todo from './images/todo.png';
 import countdown from './images/countdown.png';
-import todo_react from './images/todo-react.png';
 import rango from './images/rango.png';
+import ip_tracker from './images/iptracker.png';
 
 function Projects(){
     return(
@@ -73,17 +73,18 @@ function Projects(){
                 
                 <div className="project_div">
                     <div>
-                        <a href="https://todo-react-rouge.vercel.app/" target="_blank" rel="noreferrer">
-                            <img src={todo_react} alt="Todo with React"></img>
+                        <a href="https://ip-address-tracker-m-anas-syed.vercel.app/" target="_blank" rel="noreferrer">
+                            <img src={ip_tracker} alt="IP Address Tracker"></img>
                         </a>
                     </div>
-                    <div id="todoreact" className="adjusted_padding p_padding_left">
+                    <div id="iptracker" className="adjusted_padding p_padding_left">
                         <div className="cards">
-                            <h3 className="desktop">Todo with React</h3>
+                            <h3 className="desktop">IP Address Tracker</h3>
                             <p className="projects_p">
-                                This is also a todo app where you can create and edit lists but it was built using React. It has similar 
-                                functionalities such as adding and removing items, changeable list views. The app also makes use of local 
-                                storage in order to save the list. <br /><a href="https://github.com/M-Anas-Syed/todoreact/tree/main/todo_react" target="_blank" rel="noreferrer">GitHub Link</a>
+                                This is an app that lets the user track the exact location of an ip address or a domain name.
+                                It was build using React JS and uses multiple APIs such as Ipify for obtaining information related to 
+                                an ip address and Leaflet for displaying the map. This app was a challenge from Frontend Mentor and is 
+                                also mobile friendly. <br /><a href="https://github.com/M-Anas-Syed/ip_address_tracker" target="_blank" rel="noreferrer">GitHub Link</a>
                             </p>
                         </div>
                     </div>
