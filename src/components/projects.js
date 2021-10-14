@@ -25,7 +25,7 @@ function Projects(){
                     </div>
                     <div>
                         <a href="https://easybank-ebon.vercel.app/" target="_blank" rel="noreferrer">
-                            <img src={easybank} alt="Easybank"></img>
+                            <img className="projimg" src={easybank} alt="Easybank"></img>
                         </a>
                     </div>
                 </div>
@@ -34,7 +34,7 @@ function Projects(){
                 <div className="project_div">
                     <div>
                         <a href="https://anasafzal.pythonanywhere.com/" target="_blank" rel="noreferrer">
-                            <img src={rango} alt="Rango"></img>
+                            <img className="projimg" src={rango} alt="Rango"></img>
                         </a>
                     </div>
                     <div id="rango" className="adjusted_padding p_padding_left">
@@ -65,7 +65,7 @@ function Projects(){
                     </div>
                     <div>
                         <a href="https://todo-project-pi.vercel.app/" target="_blank" rel="noreferrer">
-                            <img src={todo} alt="Todo"></img>
+                            <img className="projimg" src={todo} alt="Todo"></img>
                         </a>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ function Projects(){
                 <div className="project_div">
                     <div>
                         <a href="https://ip-address-tracker-m-anas-syed.vercel.app/" target="_blank" rel="noreferrer">
-                            <img src={ip_tracker} alt="IP Address Tracker"></img>
+                            <img className="projimg" src={ip_tracker} alt="IP Address Tracker"></img>
                         </a>
                     </div>
                     <div id="iptracker" className="adjusted_padding p_padding_left">
@@ -106,7 +106,7 @@ function Projects(){
                     </div>
                     <div>
                         <a href="https://countdown-gules.vercel.app/" target="_blank" rel="noreferrer">
-                            <img src={countdown} alt="Countdown"></img>
+                            <img className="projimg" src={countdown} alt="Countdown"></img>
                         </a>
                     </div>
                 </div>
