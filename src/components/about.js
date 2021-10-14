@@ -8,12 +8,12 @@ function About(){
                     About
                 </h1>
                 <p className="about_p">
-                    Welcome to my Portfolio! This is where you can take a look at the projects that i have been working on. 
-                    I have always been passionate about using my creativity to build something from scratch ever since i started 
-                    my coding journey nearly 3 years ago. After taking a Web Development course at University, i was fascinated 
-                    and fell in love with it. I started creating websites using vanilla Javascript, CSS and HTML, then once i became 
-                    comfortable with it, i moved on to different libraries and frameworks such as React and Django. Feel free to 
-                    scroll around and check out my work.
+                    Are you looking take your business to the digital world? Then you have come to the right place. 
+
+                    We are a group of passionate and motivated web developers that love to use our skills and creativity to build stunning 
+                    websites. From simple static web pages to complicated multifunctional web applications, we do it all. With more than
+                    4 years of industry experience, we are able to use the most advance and recent technologies such as React JS, Django, Tailwind,
+                    and even vanilla Javascript etc. So feel free to go through some of our work. 
                 </p>
             </div>
         </section>

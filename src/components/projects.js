@@ -8,7 +8,7 @@ import ip_tracker from './images/iptracker.png';
 function Projects(){
     return(
         <section className="bgcolour">
-            <h2>Projects</h2>
+            <h2>Portfolio</h2>
             <div className="projects_container project_flex">
 
                 <div className="project_div">
@@ -17,10 +17,13 @@ function Projects(){
                             <h3 className="desktop">EasyBank</h3>
                             <p className="projects_p">
                                 Welcome to the world of online digital banking! Easybank gives you the best online banking experience. 
-                                This project is a landing page and was a challenge created by Frontend Mentor. It was built using 
+                                This project is a simple yet stunning landing page, excellent as your first website. It was built using 
                                 Vanilla Javascript, CSS and HTML. This single page website is mobile and tablet friendly. Click on the 
                                 image to visit the website. <br /><a href="https://github.com/M-Anas-Syed/easybank" target="_blank" rel="noreferrer">GitHub Link</a>
                             </p>
+                            <div className="pricetag">
+                                <p className="pricetagp">Landing pages, starting from £499</p>
+                            </div>
                         </div>
                     </div>
                     <div>
@@ -46,6 +49,9 @@ function Projects(){
                                 number of views each webpage gets. Rango also makes use of user authentication which means that users 
                                 can create accounts, login and logout. <br /><a href="https://github.com/M-Anas-Syed/tango_with_django_project" target="_blank" rel="noreferrer">GitHub Link</a>
                             </p>
+                            <div className="pricetag">
+                                <p className="pricetagp">Web Applications, starting from £899</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -61,6 +67,9 @@ function Projects(){
                                 mobile friendly too. List items can be added and removed and the list view can be changed from active items 
                                 to completed items. <br /><a href="https://github.com/M-Anas-Syed/todo_project" target="_blank" rel="noreferrer">GitHub Link</a>
                             </p>
+                            <div className="pricetag">
+                                <p className="pricetagp">Multifunctional website, starting from £599</p>
+                            </div>
                         </div>
                     </div>
                     <div>
@@ -83,9 +92,11 @@ function Projects(){
                             <p className="projects_p">
                                 This is an app that lets the user track the exact location of an ip address or a domain name.
                                 It was build using React JS and uses multiple APIs such as Ipify for obtaining information related to 
-                                an ip address and Leaflet for displaying the map. This app was a challenge from Frontend Mentor and is 
-                                also mobile friendly. <br /><a href="https://github.com/M-Anas-Syed/ip_address_tracker" target="_blank" rel="noreferrer">GitHub Link</a>
+                                an ip address and Leaflet for displaying the map. This app is fully responsive and mobile as well as tablet friendly. <br /><a href="https://github.com/M-Anas-Syed/ip_address_tracker" target="_blank" rel="noreferrer">GitHub Link</a>
                             </p>
+                            <div className="pricetag">
+                                <p className="pricetagp">API based web apps, starting from £699</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -100,8 +111,10 @@ function Projects(){
                                 Countdown is an app that displays the remaining time for a website to be launched. It was created using 
                                 Vanilla Javascript, CSS, HTML and was a challenge from Frontend Mentor. It has a cool animation with every 
                                 passing moment and is also mobile friendly. <br /><a href="https://github.com/M-Anas-Syed/countdown" target="_blank" rel="noreferrer">GitHub Link</a>
-
                             </p>
+                            <div className="pricetag">
+                                <p className="pricetagp">Complex animations, starting from £99</p>
+                            </div>
                         </div>
                     </div>
                     <div>
