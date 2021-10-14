@@ -22,7 +22,7 @@ function Projects(){
                                 image to visit the website. <br /><a href="https://github.com/M-Anas-Syed/easybank" target="_blank" rel="noreferrer">GitHub Link</a>
                             </p>
                             <div className="pricetag">
-                                <p className="pricetagp">Landing pages, starting from £499</p>
+                                <p className="pricetagp">Landing pages, starting from £249</p>
                             </div>
                         </div>
                     </div>
