@@ -14,7 +14,7 @@ function Contact(){
                         <div className="socialicons">
                             <div className="icons">
                                 <img className="contactimg" src={phone}></img>
-                                <p className="socialp">+44 7762136905</p>
+                                <p className="socialp">+44 7934985618</p>
                             </div>
                             <div className="icons">
                                 <img className="contactimg" src={email}></img>
