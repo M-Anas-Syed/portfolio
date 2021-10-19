@@ -147,8 +147,8 @@ ul{
 }
 
 .about_card{
-  max-width: 1000px;
-  margin-left: 200px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 h1{
